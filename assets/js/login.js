@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-11-02 21:20:39
- * @LastEditTime: 2021-11-03 16:10:27
+ * @LastEditTime: 2021-11-04 11:38:18
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \前后端交互\大事件\assets\js\login.js
@@ -77,7 +77,7 @@ $(function () {
                 localStorage.setItem('token', res.token);
 
                 // 跳转到后台主页
-                location.href = '/index.html';
+                location.href = './index.html';
             }
         })
     })
